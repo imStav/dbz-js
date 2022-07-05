@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/battle.css">
+    <title>Dragon Ball FighterZ, but in JS.</title>
+</head>
+<body>
+    <section id="main">
+        <div class="header-content">
+            <h1 class="header">Drag<em>o</em>n Ball <span>FighterZ</span></h1>
+            <p class="catchline">
+                JavaScript edition
+            </p>
+
+            <a href="characters.html" class="characters-list-link">characters list 
+                <i class="fa-solid fa-user-group"></i>
+            </a>
+        </div>
+
+        <div class="content">
+            <div class="card-player">
+                <img src="/img/crystalBall.png" id="image-player-1">
+                <div class="introduce-player" id="introduce-player1">Unknown</div>
+                <div class="player-stats" id="introduce-player1-stats">?</div>
+            </div>
+
+            <div class="card-player">
+                <img src="/img/crystalBall.png" id="image-player-2">
+                <div class="introduce-player" id="introduce-player2">Unknown</div>
+                <div class="player-stats" id="introduce-player2-stats">?</div>
+            </div>
+        </div>
+
+        <div class="get-ready">
+            <img src="/img/vsLogo.png" id="vs-logo" alt="">
+            <button id="launch-battle" onclick="launchBattle()">Launch battle 
+                <i class="fa-solid fa-hand-fist"></i>
+            </button>
+
+            <button id="reload" onclick="window.location.reload()">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+        </div>      
+    </section>
+    <script src="/js/battle.js"></script>
+</body>
+</html>
