@@ -16,5 +16,4 @@ and then launches a brawl. It returns the winner by displaying an `alert`.
 
 ### Thoughts
 
->This project isn't meant for a commercial use or anything. It's just a way to practise<br>
-Vanilla JavaScript a bit. It's subject to changes (pictures, etc.)
+>This project isn't meant for a commercial use or anything. It's just a way to practise Vanilla JavaScript a bit. It's subject to changes (pictures, etc.).
